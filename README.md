@@ -1,7 +1,7 @@
 # Inventory-Managment
 Treap data structure
 
-### Problem Definition & Data Structure Solution:
+### Problem Definition & Data Structure Solution
 Inventory management systems are a means by which a company can track goods from one end of their supply chain to the other which ensures that a company knows what inventory it has in stock, where it is, and how to manage it.
 
 I built part of an inventory management system using a treap data structure that tracks inventory levels and triggers when inventory is below a given threshold and should be replenished. A treap uses a main key that maintains a binary search tree ordering property, and a secondary key called a priority that maintains a heap property. The structure of the tree is determined by the requirement that it be heap-ordered which means the priority number for any non-leaf node must be greater than or equal to the priority of its children. The idea here is for the priority of a node to be directly related to its inventory level. If the inventory level for a given item falls below a predetermined threshold, then the item node is given a higher priority in the treap which will trigger the inventory system to replenish stock for that item. Once item quantity has been returned to a quantity above the threshold, then the item will be given a lower priority and the treap will be rebalanced.
