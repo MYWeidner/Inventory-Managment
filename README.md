@@ -9,4 +9,4 @@ I built part of an inventory management system using a treap data structure that
 In my opinion, a treap is the best way to implement this solution. A treap data structure combines the best of both heaps and binary search trees. When a treap is constructed, we basically build an ordered binary tree and make it satisfy the “heap” property. This means that there is only one arrangement for this treap regardless of the order by which elements are inserted into the tree. A treap is a self-organizing data structure that looks after itself, without the need to be managed.
 
 ### Instructions on how to compile and run code
-Gtest was used to test all aspects of code. Create a build foler in your repository. Run cmake from within the build directory to create the rules for making the applications. Next, run make to use those rules to actually build the executable from the source code.
+Gtest was used to test all aspects of code. Create a build folder in your repository. Run cmake from within the build directory to create the rules for making the applications. Next, run make to use those rules to actually build the executable from the source code.
