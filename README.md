@@ -10,5 +10,5 @@ The idea here is for the priority of a node to be directly related to its invent
 
 In my opinion, a treap is the best way to implement this solution. A treap data structure combines the best of both heaps and binary search trees. When a treap is constructed, we basically build an ordered binary tree and make it satisfy the “heap” property. This means that there is only one arrangement for this treap regardless of the order by which elements are inserted into the tree. A treap is a self-organizing data structure that looks after itself, without the need to be managed.
 
-### Instructions on how to compile and run code
-Gtest was used to test all aspects of code. Run cmake from within the build directory (i.e. adda build folder to your repo) to create the rules for making the applications. Next, run make to use those rules to actually build the executable from the source code.
+### Instructions on how to compile and run tests
+Gtest was used to test all aspects of code. Run cmake .. from within the build directory (i.e. add a build folder to your cloned repo) to create the rules for making the applications. Next, run make to use those rules to actually build the executable from the source code. Then run ./run_tests.
